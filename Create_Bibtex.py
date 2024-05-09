@@ -1,6 +1,6 @@
 import os 
 
-path = 'Z:/Bibliography/'
+path = './'
 
 # List subfolders with the different subtypes
 subfolders = os.listdir(path)
