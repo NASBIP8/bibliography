@@ -7,7 +7,7 @@ subfolders = os.listdir(path)
 
 # Read the diferent subtypes and extract its files
 for subfolder in  subfolders:
-    if subfolder.endswith('.bib'): continue
+    if subfolder.endswith('.bib') or subfolder.endswith('.md') and subfolder.endswith('.py'): continue
     files = os.listdir(f'{path}{subfolder}')
     
     with open (f'{path}references.bib', 'w') as f:
