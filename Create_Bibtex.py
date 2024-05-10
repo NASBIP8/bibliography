@@ -25,5 +25,5 @@ def explore_directory_tree(path, output_file):
 # Example usage
 if __name__ == "__main__":
     directory_path = "./Citations"  # Replace with the path to the directory you want to explore
-    output_path = "references.bib"  # The file where the output will be written
+    output_path = "references_v2.bib"  # The file where the output will be written
     explore_directory_tree(directory_path, output_path)
