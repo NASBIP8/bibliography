@@ -21,7 +21,7 @@ def explore_directory_tree(path, output_file):
                     with open(full_path, 'r') as bibfile:
                         # Write the content of the .bib file to the output file
                         file.write(bibfile.read() + "\n")
-
+                    file.write("\n")
 # Example usage
 if __name__ == "__main__":
     directory_path = "./Citations"  # Replace with the path to the directory you want to explore
