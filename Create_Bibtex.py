@@ -9,6 +9,7 @@ def explore_directory_tree(path, output_file):
             file.write(f"## {root.replace('./Citations', '')} \n")
             # Sort directories for consistent order
             dirs.sort()
+            print(f"## {root.replace('./Citations', '')} \n")
             # Iterate over each file in the current directory
             for filename in files:
                 # Check if the file is a .bib file
